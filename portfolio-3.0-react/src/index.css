@@ -82,7 +82,7 @@ nav a {
   margin-bottom: 15px;
 }
 
-#featuredProjects {
+.featuredProjects {
   max-width: 25rem;
   max-height: 25rem;
   margin: 10px;
@@ -92,6 +92,7 @@ nav a {
   color:   rgba(172, 135, 80);   
   font-size: 1.75rem;
   justify-content: right;
+  
 }
 
 .card-img-top {
