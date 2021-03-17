@@ -3,15 +3,15 @@
 import './App.css';
 
 // import adventue from './assets/adventue.jpg';
-import coding from './assets/coding.jpg';
-import DailyPlannerSS from './assets/DailyPlannerSS.png';
-import FoodDadABaseSS from './assets/FoodDadABaseSS.png';
+// import coding from './assets/coding.jpg';
+// import DailyPlannerSS from './assets/DailyPlannerSS.png';
+// import FoodDadABaseSS from './assets/FoodDadABaseSS.png';
 import HeroPhotoNEW from './assets/HeroPhotoNEW.png';
 // import macbook from './assets/macbook.jpg';
-import typewriter from './assets/typewriter.jpg';
+// import typewriter from './assets/typewriter.jpg';
 
-import CardOneLink from './components/CardOneLink';
-import CardTwoLinks from './components/CardTwoLinks';
+import ProjectCards from './components/ProjectCards';
+// import CardTwoLinks from './components/CardTwoLinks';
 
 
 
@@ -71,10 +71,10 @@ function App() {
                 className="card-link fas fa-external-link-alt"/>
             </div>
         </div> */}
+          <ProjectCards />
+          {/* <CardTwoLinks /> */}
 
-          <CardTwoLinks />
-
-          <div className="card featuredProjects">
+          {/* <div className="card featuredProjects">
             <div className="card-body">
               <img src={FoodDadABaseSS} className="card-img-top" alt="..."/>
                 <h5 className="card-title">Food Dad-A-Base</h5>
@@ -86,7 +86,7 @@ function App() {
                 <a href="https://github.com/goantonioUW/food-dadabase" className="card-link fab fa-github"/>
                 <a href="https://food-dad-a-base.herokuapp.com/login" className="card-link fas fa-external-link-alt"/>
               </div>
-          </div>
+          </div> */}
 
             {/* <div className="card featuredProjects">
               <div className="card-body">
@@ -101,9 +101,9 @@ function App() {
                 </div>
             </div> */}
 
-              <CardOneLink />
+              
 
-              <div className="card featuredProjects">
+              {/* <div className="card featuredProjects">
                 <div className="card-body">
                   <img src={coding} className="card-img-top" alt="..."/>
                     <h5 className="card-title">Team Generator CLI</h5>
@@ -115,9 +115,9 @@ function App() {
                       className="card-link fab fa-github"/>
                     
                   </div>
-              </div>
+              </div> */}
 
-                <div className="card featuredProjects">
+                {/* <div className="card featuredProjects">
                   <div className="card-body">
                     <img src={DailyPlannerSS} className="card-img-top" alt="..."/>
                       <h5 className="card-title">Daily Planner</h5>
@@ -128,9 +128,9 @@ function App() {
                       <a href="https://github.com/bfourGitHub/Daily-Planner" className="card-link fab fa-github"/>
                       <a href="https://bfourgithub.github.io/Daily-Planner/" className="card-link fas fa-external-link-alt"/>
                     </div>
-                </div>
+                </div> */}
 
-                  <div className="card featuredProjects">
+                  {/* <div className="card featuredProjects">
                     <div className="card-body">
                       <img src={typewriter} className="card-img-top" alt="..."/>
                         <h5 className="card-title">Andy Meets the Neighbors</h5>
@@ -140,10 +140,10 @@ function App() {
 
                       <div className="card-body">
                         <p>Coming Soon...</p>
-                        {/* <link href="" className="card-link fas fa-external-link-alt"> Coming Soon...</link> */}
+                        <link href="" className="card-link fas fa-external-link-alt"> Coming Soon...</link>
                       </div>
 
-                  </div>
+                  </div> */}
 
 
                   </div>
