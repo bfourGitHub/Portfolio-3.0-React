@@ -6,8 +6,8 @@ import macbook from "../assets/macbook.jpg";
 import coding from "../assets/coding.jpg";
 import typewriter from "../assets/typewriter.jpg";
 import adventue from "../assets/adventue.jpg";
-// import dailyPlannerSS from './assets/DailyPlannerSS.png';
-// import foodDadABaseSS from './assets/FoodDadABaseSS.png';
+import planner from "../assets/planner.png";
+import foodDad from "../assets/foodDad.png";
 
 
 
@@ -26,7 +26,7 @@ function ProjectCards() {
         },
         {
             id: "foodDadABase",
-            // imgURL: foodDadABaseSS,
+            imgURL: foodDad,
             name: "Food Dad-A-Base",
             description: "Easy to use app to test your cooking skills (no studying required) while also having a laugh!",
             gitHubLink: "https://github.com/goantonioUW/food-dadabase",
@@ -52,7 +52,7 @@ function ProjectCards() {
         },
         {
             id: "dailyPlanner",
-            // imgURL: dailyPlannerSS,
+            imgURL: planner,
             name: "Daily Planner",
             description: "A simple calendar application to keep you on track throughout your day.",
             gitHubLink: "https://github.com/bfourGitHub/Daily-Planner",
@@ -79,10 +79,12 @@ function ProjectCards() {
                         <img src={projects.imgURL} className="card-img-top" alt="..." />
                         <h5 className="card-title">{projects.name}</h5>
                         <p className="card-text">{projects.description}</p>
-                    </div>
+                    </div> 
+                    
 
-                    <div className="card-body">
+                    <div className="card-body projectCardLinks">
                         <a href={projects.gitHubLink} className={projects.fontAGitIcon} />
+                        <a href={projects.deployedLink} className={projects.fontAExTIcon} />
                         <p>{projects.comingSoon}</p>
                     </div>
                 </div>
