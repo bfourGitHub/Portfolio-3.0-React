@@ -3,7 +3,7 @@ import React from "react";
 // import Card from "react-bootstrap/Card";
 import macbook from "../assets/macbook.jpg";
 
-function ReadMeGen() {
+function CardOneLink() {
 
     return (
 
@@ -22,4 +22,4 @@ function ReadMeGen() {
     );
 };
 
-export default ReadMeGen;
+export default CardOneLink;

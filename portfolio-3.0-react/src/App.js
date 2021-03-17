@@ -2,7 +2,7 @@
 // import logo from './logo.svg';
 import './App.css';
 
-import adventue from './assets/adventue.jpg';
+// import adventue from './assets/adventue.jpg';
 import coding from './assets/coding.jpg';
 import DailyPlannerSS from './assets/DailyPlannerSS.png';
 import FoodDadABaseSS from './assets/FoodDadABaseSS.png';
@@ -11,6 +11,7 @@ import HeroPhotoNEW from './assets/HeroPhotoNEW.png';
 import typewriter from './assets/typewriter.jpg';
 
 import CardOneLink from './components/CardOneLink';
+import CardTwoLinks from './components/CardTwoLinks';
 
 
 
@@ -56,7 +57,7 @@ function App() {
           </div>
         </div>
 
-        <div className="card featuredProjects" id="featuredProjects">
+        {/* <div className="card featuredProjects" id="featuredProjects">
           <div className="card-body">
             <img src={adventue} className="card-img-top" alt="..."/>
               <h5 className="card-title">Trail Chasers</h5>
@@ -69,7 +70,9 @@ function App() {
               <a href="https://taanibravo.github.io/Trail-Chaser-Hiking-App/"
                 className="card-link fas fa-external-link-alt"/>
             </div>
-        </div>
+        </div> */}
+
+          <CardTwoLinks />
 
           <div className="card featuredProjects">
             <div className="card-body">
