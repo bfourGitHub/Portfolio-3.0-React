@@ -7,8 +7,10 @@ import coding from './assets/coding.jpg';
 import DailyPlannerSS from './assets/DailyPlannerSS.png';
 import FoodDadABaseSS from './assets/FoodDadABaseSS.png';
 import HeroPhotoNEW from './assets/HeroPhotoNEW.png';
-import macbook from './assets/macbook.jpg';
+// import macbook from './assets/macbook.jpg';
 import typewriter from './assets/typewriter.jpg';
+
+import CardOneLink from './components/CardOneLink';
 
 
 
@@ -83,7 +85,7 @@ function App() {
               </div>
           </div>
 
-            <div className="card featuredProjects">
+            {/* <div className="card featuredProjects">
               <div className="card-body">
                 <img src={macbook} className="card-img-top" alt="..."/>
                   <h5 className="card-title">ReadME Generator</h5>
@@ -94,7 +96,9 @@ function App() {
                   <a href="https://github.com/bfourGitHub/Easy-Readme-Generator" className="card-link fab fa-github"/>
                   
                 </div>
-            </div>
+            </div> */}
+
+              <CardOneLink />
 
               <div className="card featuredProjects">
                 <div className="card-body">
