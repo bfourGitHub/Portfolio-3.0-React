@@ -1,6 +1,6 @@
 import React from 'react';
 // import AboutMeCard from '../components/AboutMeCard';
-import DesignCards from '../components/DesignCards';
+import DesignCards from './DesignCards';
 
 
 function CardCluster3() {
