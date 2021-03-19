@@ -9,7 +9,6 @@ function CardCluster2 () {
 
         <div className="cardCluster" id="aboutMe">
 
-            {/* <AboutMeCard /> */}
             <ProjectCards />
 
         </div>

@@ -1,10 +1,10 @@
-import CardCluster2 from '../../components/CardCluster2';
+import CardCluster3 from '../../components/CardCluster3';
 
 function Design () {
     
     return (
 
-        <CardCluster2 />
+        <CardCluster3 />
 
     );
 };

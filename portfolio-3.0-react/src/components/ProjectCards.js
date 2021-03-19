@@ -4,9 +4,7 @@ import React from "react";
 // import Container from "react-bootstrap/Container";
 import macbook from "../assets/macbook.jpg";
 import coding from "../assets/coding.jpg";
-import typewriter from "../assets/typewriter.jpg";
 import adventue from "../assets/adventue.jpg";
-import workshop from "../assets/workshop.jpg";
 import freshFood from "../assets/freshFood.jpg";
 import puddleJump from "../assets/puddleJump.jpg";
 import fountainPen2 from "../assets/fountainPen2.jpg";
@@ -83,20 +81,7 @@ function ProjectCards() {
         //     fontAGitIcon: "card-link fab fa-github",
         //     fontAExTIcon: "card-link fas fa-external-link-alt",
         // },
-        {
-            id: "theJetwayAP",
-            imgURL: workshop,
-            name: "The Jetway Apartment Project",
-            description: "An iterative renovation of a 297 sq ft apartment in the Emerald City.",
-            comingSoon: "Coming Soon..."
-        },
-        {
-            id: "andyMeetsTheNeighbors",
-            imgURL: typewriter,
-            name: "Andy Meets the Neighbors",
-            description: "A short story about an unassuming old building, its eccentric residents & the new guy in #304.",
-            comingSoon: "Coming Soon..."
-        },
+       
     ];
 
     return (
