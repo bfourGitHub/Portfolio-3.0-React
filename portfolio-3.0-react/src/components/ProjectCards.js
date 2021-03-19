@@ -104,8 +104,8 @@ function ProjectCards() {
         // <Card>
             projects.map((projects) => (
 
-                <div className="card featuredProjects">
-                    <div className="card-body" id={projects.id}>
+                <div className="card featuredProjects" id={projects.id}>
+                    <div className="card-body">
                         <img src={projects.imgURL} className="card-img-top" alt="..." />
                         <h5 className="card-title projectName">{projects.name}</h5>
                         <p className="card-text">{projects.description}</p>
@@ -115,7 +115,7 @@ function ProjectCards() {
                     <div className="card-body projectCardLinks">
                         <a href={projects.gitHubLink} className={projects.fontAGitIcon} />
                         <a href={projects.deployedLink} className={projects.fontAExTIcon} />
-                        <p>{projects.comingSoon}</p>
+                        <p className="card-link">{projects.comingSoon}</p>
                     </div>
                 </div>
             ))

@@ -1,64 +1,29 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownMenu from 'react-bootstrap/DropdownMenu';
+import { Navbar } from 'react-bootstrap';
 
 
 
-function NavBar() {
+
+function NavBarCustom() {
 
     return (
 
-        <div>
+        <Navbar className="customNav" bg="dark" variant="dark" style={{ display: "flex", justifyContent: "space-between", alignContent: "center" }} >
 
-            <nav className="sticky-top">
+            <h4 style={{ color: "white" }}>bryan<span style={{ color: "rgba(172,135,80)" }}>moreno</span></h4>
 
-                <div className="container nav-container">
+            <div className="navLink3" style={{ display: "flex" }}>
+                <a href="#aboutmeContact" style={{ fontSize: "1rem", color: "rgba(172,135,80)" }}>about</a>
+                <a href="#trailChasers" style={{ fontSize: "1rem", color: "white" }}>projects</a>
+                <a href="#theJetwayAP" style={{ fontSize: "1rem", color: "rgba(172,135,80)" }}>design</a>
+            </div>
 
-                    <div className="sectionLinks dropdown col">
-
-                        <Dropdown>
-                            <Dropdown.Toggle className="btn btn-primary card-link" data-bs-target="#navigateOptions" data-bs-toggle="collapse" aria-controls="collapseExample" id="dropdown-basic" />
-
-
-
-                        </Dropdown>
-
-                        {/* <p>
-
-                                <a className="btn btn-primary fas fa-bars" data-bs-toggle="collapse" href="#navigateOpts" role="button"
-                                    aria-expanded="false" aria-controls="collapseExample"></a>
-                            </p>
-                            <div className="collapse" id="navigateOpts">
-                                <div className="card card-body">
-                                    <DropdownMenu>
-                                        <a className="dropdown-item" href="#aboutMe" >About</a>
-                                        <a className="dropdown-item" href="#trailChasers">Featured</a>
-                                        <a className="dropdown-item" href="#trailChasers">Portfolio</a>
-                                        <div className="dropdown-divider"></div>
-                                        <a className="dropdown-item" href="https://www.apple.com/" >Contact</a>
-                                    </DropdownMenu>
-                                </div>
-                            </div> */}
-
-                    </div>
-
-
-                </div>
-
-            </nav>
-            <DropdownMenu className="collapse" id="navigateOptions">
-                <Dropdown.Item href="#aboutMe" >About</Dropdown.Item>
-                <Dropdown.Item href="#trailChasers" >Featured</Dropdown.Item>
-                <Dropdown.Item href="#trailChasers">Portfolio</Dropdown.Item>
-            </DropdownMenu>
-
-
-        </div>
+        </Navbar>
 
     )
 
 }
 
-export default NavBar;
+export default NavBarCustom;
