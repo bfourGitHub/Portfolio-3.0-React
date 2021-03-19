@@ -15,9 +15,9 @@ function NavBarCustom() {
             <h4 style={{ color: "white" }}>bryan<span style={{ color: "rgba(172,135,80)" }}>moreno</span></h4>
 
             <div className="navLink3" style={{ display: "flex" }}>
-                <a href="#aboutmeContact" style={{ fontSize: "1rem", color: "rgba(172,135,80)" }}>about</a>
-                <a href="#trailChasers" style={{ fontSize: "1rem", color: "white" }}>projects</a>
-                <a href="#theJetwayAP" style={{ fontSize: "1rem", color: "rgba(172,135,80)" }}>design</a>
+                <a href="/" style={{ fontSize: "1rem", color: "rgba(172,135,80)" }}>about</a>
+                <a href="/Projects" style={{ fontSize: "1rem", color: "white" }}>projects</a>
+                <a href="/Design" style={{ fontSize: "1rem", color: "rgba(172,135,80)" }}>design</a>
             </div>
 
         </Navbar>

@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutMeCard from '../components/AboutMeCard';
-import ProjectCards from '../components/ProjectCards';
+// import ProjectCards from '../components/ProjectCards';
 
 
 function CardCluster () {
@@ -10,7 +10,7 @@ function CardCluster () {
         <div className="cardCluster" id="aboutMe">
 
             <AboutMeCard />
-            <ProjectCards />
+            {/* <ProjectCards /> */}
 
         </div>
 
