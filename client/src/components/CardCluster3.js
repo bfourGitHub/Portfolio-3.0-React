@@ -18,7 +18,8 @@ function CardCluster3() {
 
                 </div>
             </div>
-                <DesignCards />
+                
+            <DesignCards />
 
 
         </div>
