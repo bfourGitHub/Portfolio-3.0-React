@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 
-import HeroPhotoNEW from '../assets/HeroPhotoNEW.png';
+import HeroPhotoNEWMin from '../assets/HeroPhotoNEWMin.png';
 
 
 
@@ -12,7 +12,7 @@ function AboutMeCard() {
     <div className="card col-11 aboutMeCard">
       <div className="card-body">
         <div>
-          <img src={HeroPhotoNEW} className="img-fluid" alt="..." />
+          <img src={HeroPhotoNEWMin} className="img-fluid" alt="..." />
           <p id="aboutmeContact"></p>
         </div >
         {/* <div> */}
