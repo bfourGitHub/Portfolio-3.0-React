@@ -30,8 +30,8 @@ This portfolio update also called for updates to GitHub and LinkedIn profiles, a
 
 ## Screenshots
 
-<img src="./src/assets/reactPortfolioOne.png" width="500"> 
-<img src="./src/assets/reactPortfolioTwo.png" width="500"> 
+<img src="./client/src/assets/reactPortfolioOne.png" width="500"> 
+<img src="./client/src/assets/reactPortfolioTwo.png" width="500"> 
 
 
 ## Links
