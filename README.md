@@ -35,6 +35,6 @@ This portfolio update also called for updates to GitHub and LinkedIn profiles, a
 
 
 ## Links
-[Deployed application](https://bfourgithub.github.io/Portfolio-3.0-React/)
+[Deployed application](https://portfolio3reactmoreno.herokuapp.com/)
 
 [GitHub Repository](https://github.com/bfourGitHub/Portfolio-3.0-React)
