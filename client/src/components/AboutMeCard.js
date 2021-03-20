@@ -20,7 +20,7 @@ function AboutMeCard() {
         <h5 className="card-title" >bryan moreno</h5>
         <h6 className="card-subtitle mb-2 text-muted">full stack developer</h6>
         <p className="card-text">Student. UW Coding Bootcamp 2021. Bartender with a love of coding & all things
-            tech.32 </p>
+            tech.</p>
         {/* </div> */}
 
         <a href="https://linkedin.com/in/bryan-moreno-360877128" className="card-link fab fa-linkedin" />
