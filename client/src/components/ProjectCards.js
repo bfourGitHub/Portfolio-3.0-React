@@ -8,6 +8,7 @@ import adventue from "../assets/adventue.jpg";
 import freshFood from "../assets/freshFood.jpg";
 import puddleJump from "../assets/puddleJump.jpg";
 import fountainPen2 from "../assets/fountainPen2.jpg";
+import neighborCutOut from "../assets/neighborCutOut.jpeg";
 
 
 
@@ -15,6 +16,16 @@ import fountainPen2 from "../assets/fountainPen2.jpg";
 function ProjectCards() {
 
     const projects = [
+        {
+            id: "cuposugar",
+            imgURL: neighborCutOut,
+            name: "Cup of Sugar",
+            description: "A hyperlocal giving experience",
+            gitHubLink: "https://github.com/SeattleSal/cup-o-sugar",
+            deployedLink: "https://neighborhood-cup-o-sugar.herokuapp.com/",
+            fontAGitIcon: "card-link fab fa-github",
+            fontAExTIcon: "card-link fas fa-external-link-alt",
+        },
         {
             id: "trailChasers",
             imgURL: adventue,
