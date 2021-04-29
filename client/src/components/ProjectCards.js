@@ -20,7 +20,7 @@ function ProjectCards() {
             id: "cuposugar",
             imgURL: neighborCutOut,
             name: "Cup of Sugar",
-            description: "A hyperlocal giving experience",
+            description: "A hyperlocal giving experience.",
             gitHubLink: "https://github.com/SeattleSal/cup-o-sugar",
             deployedLink: "https://neighborhood-cup-o-sugar.herokuapp.com/",
             fontAGitIcon: "card-link fab fa-github",
