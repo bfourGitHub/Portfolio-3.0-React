@@ -23,7 +23,7 @@ function AboutMeCard() {
             tech.</p>
         {/* </div> */}
 
-        <a href="https://linkedin.com/in/bryan-moreno-360877128" className="card-link fab fa-linkedin" />
+        <a href="https://www.linkedin.com/in/bryanmorenowebdev/" className="card-link fab fa-linkedin" />
 
         <a href="https://drive.google.com/file/d/12-DtfiCD9neXaYTvRGocvRiiZqTtc2_0/view?usp=sharing" className="card-link fas fa-portrait" />
 
