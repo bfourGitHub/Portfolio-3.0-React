@@ -18,8 +18,8 @@ function AboutMeCard() {
         {/* <div> */}
 
         <h5 className="card-title" >bryan moreno</h5>
-        <h6 className="card-subtitle mb-2 text-muted">full stack developer</h6>
-        <p className="card-text">Full Stack Web Developer. UW Coding Bootcamp 2021. Bartender with a love of coding, design & all things
+        <h6 className="card-subtitle mb-2 text-muted">full stack web developer</h6>
+        <p className="card-text">UW Coding Boot Camp 2021. Bartender with a love of coding, design & all things
             tech.</p>
         {/* </div> */}
 

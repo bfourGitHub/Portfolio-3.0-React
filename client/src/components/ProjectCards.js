@@ -21,8 +21,8 @@ function ProjectCards() {
             imgURL: neighborCutOut,
             name: "Cup of Sugar",
             description: "A hyperlocal giving experience.",
-            gitHubLink: "https://github.com/SeattleSal/cup-o-sugar",
-            deployedLink: "https://neighborhood-cup-o-sugar.herokuapp.com/",
+            gitHubLink: "https://github.com/bfourGitHub/cup-o-sugar",
+            deployedLink: "https://hyperlocal-cup-of-sugar.herokuapp.com/",
             fontAGitIcon: "card-link fab fa-github",
             fontAExTIcon: "card-link fas fa-external-link-alt",
         },
@@ -81,17 +81,7 @@ function ProjectCards() {
             deployedLink: "https://note-taker-moreno.herokuapp.com/",
             fontAGitIcon: "card-link fab fa-github",
             fontAExTIcon: "card-link fas fa-external-link-alt",
-        },
-        // {
-        //     id: "dailyPlanner",
-        //     imgURL: planner,
-        //     name: "Daily Planner",
-        //     description: "A simple calendar application to keep you on track throughout your day.",
-        //     gitHubLink: "https://github.com/bfourGitHub/Daily-Planner",
-        //     deployedLink: "https://bfourgithub.github.io/Daily-Planner/",
-        //     fontAGitIcon: "card-link fab fa-github",
-        //     fontAExTIcon: "card-link fas fa-external-link-alt",
-        // },
+        }
        
     ];
 
