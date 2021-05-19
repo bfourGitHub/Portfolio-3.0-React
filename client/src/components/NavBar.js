@@ -12,7 +12,7 @@ function NavBarCustom() {
 
         <Navbar className="customNav" bg="dark" variant="dark" style={{ display: "flex", justifyContent: "space-between", alignContent: "center" }} >
 
-            <h4 style={{ color: "white" }}>bryan<span style={{ color: "rgba(172,135,80)" }}>moreno</span></h4>
+            <a href="/" style={{ fontSize: "1.5rem", color: "white" }}>bryan<span style={{ fontSize: "1.5rem", color: "rgba(172,135,80)" }}>moreno</span></a>
 
             <div className="navLink3" style={{ display: "flex" }}>
                 <a href="/" style={{ fontSize: "1rem", color: "rgba(172,135,80)" }}>about</a>
