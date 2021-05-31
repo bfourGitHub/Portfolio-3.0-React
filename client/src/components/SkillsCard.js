@@ -14,8 +14,8 @@ function SkillsCard() {
                 <h6 className="card-subtitle mb-3 mt-2 text-muted">programs & languages</h6>
                 <p className="card-link fab fa-html5"></p>
                 <p className="card-link fab fa-css3-alt"></p>
-                <p className="card-link fab fa-js-square"></p>
                 <p className="card-link fab fa-react"></p>
+                <p className="card-link fab fa-js-square"></p>
             </div>
             <div style={{ marginBottom: "1rem" }} >
                 <img src={PhotoShopIcon2} className="img-fluid card-link" style={{ width: "3rem", height: "3rem" }} alt="Photoshop" />

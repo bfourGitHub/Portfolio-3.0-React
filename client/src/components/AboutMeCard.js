@@ -25,7 +25,7 @@ function AboutMeCard() {
 
         <a href="https://www.linkedin.com/in/bryanmorenowebdev/" className="card-link fab fa-linkedin" />
 
-        <a href="https://drive.google.com/file/d/12-DtfiCD9neXaYTvRGocvRiiZqTtc2_0/view?usp=sharing" className="card-link fas fa-portrait" />
+        <a href="https://drive.google.com/file/d/12-DtfiCD9neXaYTvRGocvRiiZqTtc2_0/view?usp=sharing" className="card-link fas fa-file-alt" />
 
         <a href="https://github.com/bfourGitHub" className="card-link fab fa-github" />
       </div>
