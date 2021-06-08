@@ -16,7 +16,7 @@ function NavBarCustom() {
 
             <div className="navLink3" style={{ display: "flex" }}>
                 <a href="/" style={{ fontSize: "1rem", color: "rgba(172,135,80)" }}>about</a>
-                <a href="/Projects" style={{ fontSize: "1rem", color: "white" }}>develop</a>
+                <a href="/Develop" style={{ fontSize: "1rem", color: "white" }}>develop</a>
                 <a href="/Design" style={{ fontSize: "1rem", color: "rgba(172,135,80)" }}>design</a>
             </div>
 
