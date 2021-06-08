@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import About from './pages/About/index';
 import Projects from './pages/Projects/index';
 import Design from './pages/Design/index';
+// import Jetway from './pages/Jetway/index';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -22,8 +23,9 @@ function App() {
         <br />
         <Switch>
           <Route exact strict path="/" component={About} />
-          <Route exact strict path="/projects" component={Projects} />
+          <Route exact strict path="/develop" component={Projects} />
           <Route exact strict path="/design" component={Design} />
+          {/* <Route exact strict path="/jetway" component={Jetway} /> */}
           <Route exact path="*" component={About} />
         </Switch>
         <br />
