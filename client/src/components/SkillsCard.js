@@ -16,6 +16,9 @@ function SkillsCard() {
                 <p className="card-link fab fa-css3-alt"></p>
                 <p className="card-link fab fa-react"></p>
                 <p className="card-link fab fa-js-square"></p>
+                {/* <p className=" card-link fab fa-node-js"></p>
+                <p className=" card-link fab fa-sass"></p>
+                <p className=" card-link fab fa-swift"></p> */}
             </div>
             <div style={{ marginBottom: "1rem" }} >
                 <img src={PhotoShopIcon2} className="img-fluid card-link" style={{ width: "3rem", height: "3rem" }} alt="Photoshop" />
