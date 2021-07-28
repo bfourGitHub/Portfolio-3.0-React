@@ -14,7 +14,11 @@ function CardCluster2() {
 
                     <h5 className="card-title" >bryan moreno</h5>
                     <h6 className="card-subtitle mb-2 text-muted">full stack web developer</h6>
-                    <p className="card-text">UW Coding Boot Camp 2021. Bartender with a love of coding, design & all things tech.</p>
+                    <p className="card-text">UW Coding Boot Camp 2021.</p>
+                    <div className="mb-4 card-text" style={{ textAlign: "-webkit-center" }}>
+                        <p className="card-text" style={{ maxWidth: "40rem" }} >Seattle-based developer with an outgoing personality, positive attitude & collaborative spirit. Hard worker with a love for the delicate art of coding & object oriented design. Expert problem solver with a strong background in interdisciplinary design.</p>
+
+                    </div>
 
                 </div>
             </div>
