@@ -28,7 +28,7 @@ function AboutMeCard() {
 
         <a href="https://www.linkedin.com/in/bryanmorenowebdev/" className="card-link fab fa-linkedin" />
 
-        <a href="https://drive.google.com/file/d/12-DtfiCD9neXaYTvRGocvRiiZqTtc2_0/view?usp=sharing" className="card-link fas fa-file-alt" />
+        <a href="https://drive.google.com/file/d/1hNJvh-wFXeK0O36IlCQx8Fxar9udfT5U/view?usp=sharing" className="card-link fas fa-file-alt" />
 
         <a href="https://github.com/bfourGitHub" className="card-link fab fa-github" />
         <h6 className="mt-2" style={{ color: "rgba(172, 135, 80)" }}>bfourbryan@gmail.com</h6>
